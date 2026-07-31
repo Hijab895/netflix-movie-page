@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Netflix Movie Page</title>
 </head>
 <body>
     <!--Header-->
-    <header><nav>
+    <header><nav id="header-navigation" aria-label="Main navigation">
         <a href="#"><img src="assets/images/netflix-logo.png" alt="Netflix Logo"></a>
-        <ul>
+        <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">TV Shows</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">New & Popular</a></li>
             <li><a href="#">My List</a></li>
-            <li><a href="#">Search</a></li>
-            <li>
-                <a href="#">
-                <img src="assets/images/notification-icon.png" alt="Notification">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                <img src="assets/images/profile-icon.jpg" alt="Profile">
-                </a>   
-            </li>
         </ul>
+        <div class="nav-actions">
+            <form class="search-form">
+                <input type="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+            <a href="#">
+                <i class="fa-regular fa-bell"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-regular fa-user"></i>
+            </a>
+        </div>
         
     </nav></header>
     <main>
@@ -49,7 +54,7 @@
             </div>
         </section>
         <!--Movie Navigation-->
-        <nav>
+        <nav id="movie-navigation">
             <ul>
             <li><a href="#overview">Overview</a></li>
             <li><a href="#trailer">Trailer</a></li>
