@@ -6,6 +6,7 @@
     <title>Netflix Movie Page</title>
 </head>
 <body>
+    <!--Header-->
     <header><nav>
         <a href="#"><img src="assets/images/netflix-logo.png" alt="Netflix Logo"></a>
         <ul>
@@ -15,14 +16,23 @@
             <li><a href="#">New & Popular</a></li>
             <li><a href="#">My List</a></li>
             <li><a href="#">Search</a></li>
-            <li><img src="assets/images/notification-icon.png" alt="Notification"></li>
-            <li><img src="assets/images/profile-icon.jpg" alt="Profile"></li>
+            <li>
+                <a href="#">
+                <img src="assets/images/notification-icon.png" alt="Notification">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <img src="assets/images/profile-icon.jpg" alt="Profile">
+                </a>   
+            </li>
         </ul>
         
     </nav></header>
     <main>
+        <!--Hero Section-->
         <section id="hero-section">
-            <img src="assets/images/hero-banner.webp" alt="Hero-banner">
+            <img src="assets/images/hero-banner.webp" alt="Interstellar Hero Banner">
             <div class="hero-content">
                 <h1>Interstellar</h1>
                 <ul>
@@ -34,10 +44,11 @@
                 <p>Sci-Fi • Adventure • Drama</p>
                 <p>A team of explorers travel through a wormhole in space
                 in an attempt to ensure humanity's survival.</p>
-                <button>▶ Play</button>
-                <button>🎬 Watch Trailer</button>
+                <button type="button">▶ Play</button>
+                <button type="button">🎬 Watch Trailer</button>
             </div>
         </section>
+        <!--Movie Navigation-->
         <nav>
             <ul>
             <li><a href="#overview">Overview</a></li>
@@ -48,6 +59,7 @@
             <li><a href="#related-movies">Related Movies</a></li>
             </ul>
         </nav>
+        <!--Overview-->
         <section id="overview">
             <img src="assets/images/interstellar-poster.jpg" alt="interstellar-poster">
             <h2>Overview</h2>
@@ -66,10 +78,12 @@
                 </dl>
             </article>
         </section>
+        <!--Trailer-->
         <section id="trailer">
             <h2>Trailer</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=FZuDobvVG-kybbgf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
+        <!--Cast-->
         <section id="cast">
             <h2>Cast</h2>
             <figure>
@@ -97,6 +111,7 @@
                 <figcaption>Casey Affleck</figcaption>
             </figure>
         </section>
+        <!--Details-->
         <section id="details">
             <h2>Details</h2>
             <dl>
@@ -114,6 +129,7 @@
                 <dt>Production:</dt><dd>Paramount Pictures , Warner Bros</dd>
             </dl>
         </section>
+        <!--Reviews-->
         <section id="reviews">
             <h2>Reviews</h2>
             <div class="rating-summary">
@@ -145,6 +161,7 @@
                 </form>
             </div>
         </section>
+        <!--Related Movies-->
         <section id="related-movies">
             <h2>Related Movies</h2>
             <figure>
@@ -173,6 +190,7 @@
             </figure>
         </section>
     </main>
+    <!--Footer-->
     <footer>
             <img src="assets/images/netflix-logo.png" alt="netflix-logo">
             <ul>
@@ -182,7 +200,7 @@
                 <li><a href="#">Terms of Use</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-            <p>&copy 2026 Netflix Clone. Educational Project.</p>
+            <p>&copy; 2026 Netflix Clone. Educational Project.</p>
     </footer>
 </body>
 </html>
